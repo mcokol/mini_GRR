@@ -1,0 +1,45 @@
+{
+  "config": {
+    "histograms": [
+      {
+        "view_range": [
+          0.0,
+          1.0
+        ],
+        "number_of_bins": 100,
+        "x_log_scale": false,
+        "y_log_scale": true,
+        "x_min_log": null
+      }
+    ],
+    "table": {
+      "config": {
+        "filename": "minipos_1.bedgraph.gz",
+        "format": "tabix",
+        "header_mode": "none",
+        "chrom": {
+          "index": 0
+        },
+        "pos_begin": {
+          "index": 1
+        },
+        "pos_end": {
+          "index": 2
+        }
+      },
+      "files_md5": {
+        "minipos_1.bedgraph.gz": "d1b3146e0db90182c588c68985f9e06d",
+        "minipos_1.bedgraph.gz.tbi": "569894f69aca69a7d4f96fd64c64f69d"
+      }
+    }
+  },
+  "score_config": [
+    {
+      "id": "pos_bedgraph_1",
+      "type": "float",
+      "name": null,
+      "index": 3,
+      "na_values": "['', '.', 'NA', 'nan']"
+    }
+  ]
+}
