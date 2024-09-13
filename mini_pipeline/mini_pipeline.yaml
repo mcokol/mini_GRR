@@ -1,0 +1,31 @@
+preamble:
+   input_reference_genome: mini_genome
+   summary: pipeline for mini_grr
+   description: Test pipeline for mini_grr
+
+
+annotators:
+- effect_annotator:
+    gene_models: mini_genemodel_refseq
+    genome: mini_genome
+    attributes:
+      - worst_effect
+      - gene_list
+
+- position_score: mini_positionscore_tsv_0
+- position_score: mini_positionscore_tsv_1
+- position_score: mini_positionscore_bedgraph_0
+- position_score: mini_positionscore_bedgraph_1
+- position_score: mini_positionscore_region_bedgraph_0
+- position_score: mini_positionscore_region_bedgraph_1
+- position_score: mini_positionscore_region_tsv_0
+- position_score: mini_positionscore_region_tsv_1
+
+
+- np_score: mini_npscore_tsv_0
+- np_score: mini_npscore_tsv_1
+
+- gene_score_annotator:
+    resource_id: mini_genescore
+    input_gene_list: gene_list 
+

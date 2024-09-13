@@ -1,0 +1,1130 @@
+
+
+<html>
+<head>
+<style>
+h3,h4 {
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    font-size: 20px;
+}
+td {
+    font-size: 18px;
+}
+
+
+</style>
+</head>
+    <body>
+
+    <h1>Resource</h1>
+    <div>
+        <table border="1">
+            <tr>
+                <td>
+                    <b>Id:</b>
+                </td>
+                <td>mini_pipeline</td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Type:</b>
+                </td>
+                <td>annotation_pipeline</td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Version:</b>
+                </td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td><b>Summary:</b></td>
+                <td>
+                    <div>
+                        <template shadowrootmode="open"><p>pipeline for mini_grr</p>
+
+                        </template>
+                     </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Description:</b>
+                </td>
+                <td>
+                    <div>
+                        <template shadowrootmode="open"><p>Test pipeline for mini_grr</p>
+
+                        </template>
+                     </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Labels:</b>
+                </td>
+                <td>
+                
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+      * {
+        font-family: Roboto, FontAwesome;
+      }
+
+      p {
+        margin: 8px;
+      }
+
+      body {
+        width: 70%;
+        margin: auto;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-size: 24px;
+      }
+
+      .preamble-header,
+      .annotator-list-header,
+      .pipeline-header {
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+
+      .preamble-header,
+      .annotator-list-header {
+        font-size: 30px;
+      }
+
+      .pipeline-header {
+        font-size: 36px;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 10px;
+      }
+
+      th {
+        font-size: 20px;
+      }
+
+      td {
+        font-size: 18px;
+      }
+
+      .annotator-doc {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(218,218,218);
+      }
+
+      .annotator-line {
+        font-size: 18px;
+        vertical-align: top;
+        width: 40%;
+        position: -webkit-sticky;
+        align-self: flex-start;
+        word-break: break-word;
+      }
+
+      .sticky-line {
+        position: sticky;
+        top: 0px;
+      }
+
+      .annotator {
+        background-color: #eee;
+        padding: 10px 8px;
+      }
+
+      .annotator-title {
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      .attribute-list {
+        width: 60%;
+        border-right: 1px solid rgb(218,218,218);
+      }
+      
+      .attribute {
+        padding: 0 0 20px;
+        border-bottom: 1px solid rgb(218,218,218);
+      }
+
+      .attribute:last-child {
+        border-bottom: none;
+      }
+
+      .attribute-name {
+        font-size: 22px;
+        font-weight: 500;
+        padding: 10px 8px;
+        word-break: break-word;
+      }
+
+      .resource-id {
+        font-size: 18px;
+        margin: 8px;
+      }
+
+      .attribute-type {
+        font-size: 18px;
+        padding: 10px 8px;
+      }
+
+      .attribute-description {
+        font-size: 18px;
+        margin-right: 20px;
+      }
+
+      .attribute-info {
+        font-size: 24px;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #f7f7f7;
+        margin-bottom: 12px;
+      }
+
+      .attribute-internal {
+        background-color: #f7efe4;
+      }
+
+      .attribute-source, .pipeline_path {
+        color: rgb(145,145,145);
+        margin: 8px;
+      }
+
+      .pipeline_path {
+        float: right;
+        font-size: 18px;
+      }
+
+      .no-description {
+        font-style: italic;
+        color: #9c9c9c;
+        padding: 10px 8px;
+      }
+
+      .resource-info {
+        font-style: italic;
+        padding: 10px 0 0 0;
+      }
+
+      .resource {
+        padding: 10px 8px;
+      }
+
+      summary {
+        padding-top: 10px; 
+      }
+
+      img {
+        height: auto; 
+        width: auto; 
+        max-width: 95%; 
+        max-height: 95%;
+      }
+
+      table, th, td {
+        border:1px solid rgb(218,218,218);
+      }
+
+      th {
+        background-color: #eee;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="pipeline-header">Pipeline Documentation</h1>
+    
+      <h2 class="preamble-header">preamble</h2>
+      <table style="width: 100%">
+      
+        <tr>
+          <th>Summary</th>
+          <td>pipeline for mini_grr</td>
+        </tr>
+      
+      
+        <tr>
+          <th>Description</th>
+          <td>Test pipeline for mini_grr</td>
+        </tr>
+      
+      
+        <tr>
+          <th>Input reference genome</th>
+          <td>
+            <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_genome/index.html">
+              mini_genome
+            </a>
+          </td>
+        </tr>
+      
+      
+      </table>
+    
+
+    
+    <div class="pipeline_path">
+      Pipeline path: 
+    </div>
+    
+
+    <h2 class="annotator-list-header">Annotators</h2>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  worst_effect
+                </div>
+                <div class="attribute-type">Type: worst_effect</div>
+              </div>
+              <div class="attribute-description">
+                <p>Worst effect accross all transcripts.</p>
+
+                <div class="attribute-source">source: worst_effect</div>
+              </div>
+            </div>
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  gene_list
+                </div>
+                <div class="attribute-type">Type: gene_list</div>
+              </div>
+              <div class="attribute-description">
+                <p>List of all genes</p>
+
+                <div class="attribute-source">source: gene_list</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line sticky-line">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: effect_annotator</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to identify the effect of the variant on protein coding.</p>
+
+<p><a href="https://iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#effect-annotator" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_genome/index.html">
+                      mini_genome</a></div>                            
+              <div class="resource-info">Type: genome</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  mini genome
+
+                </div>
+              
+            </div>
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_genemodel_refseq/index.html">
+                      mini_genemodel_refseq</a></div>                            
+              <div class="resource-info">Type: gene_models</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  refseq gene model
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  pos_tsv_0
+                </div>
+                <div class="attribute-type">Type: pos_tsv_0</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_tsv_0/statistics/histogram_pos_tsv_0.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+                <div class="attribute-source">source: pos_tsv_0</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: position_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position like
+phastCons, phyloP, FitCons2, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#position-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_tsv_0/index.html">
+                      mini_positionscore_tsv_0</a></div>                            
+              <div class="resource-info">Type: position_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  0-based tsv position score
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  pos_tsv_1
+                </div>
+                <div class="attribute-type">Type: pos_tsv_1</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_tsv_1/statistics/histogram_pos_tsv_1.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+                <div class="attribute-source">source: pos_tsv_1</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: position_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position like
+phastCons, phyloP, FitCons2, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#position-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_tsv_1/index.html">
+                      mini_positionscore_tsv_1</a></div>                            
+              <div class="resource-info">Type: position_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  1-based tsv position score
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  pos_bedgraph_0
+                </div>
+                <div class="attribute-type">Type: pos_bedgraph_0</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_bedgraph_0/statistics/histogram_pos_bedgraph_0.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+                <div class="attribute-source">source: pos_bedgraph_0</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: position_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position like
+phastCons, phyloP, FitCons2, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#position-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_bedgraph_0/index.html">
+                      mini_positionscore_bedgraph_0</a></div>                            
+              <div class="resource-info">Type: position_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  0-based bedgraph position score
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  pos_bedgraph_1
+                </div>
+                <div class="attribute-type">Type: pos_bedgraph_1</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_bedgraph_1/statistics/histogram_pos_bedgraph_1.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+                <div class="attribute-source">source: pos_bedgraph_1</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: position_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position like
+phastCons, phyloP, FitCons2, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#position-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_bedgraph_1/index.html">
+                      mini_positionscore_bedgraph_1</a></div>                            
+              <div class="resource-info">Type: position_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  1-based bedgraph position score
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  posreg_bedgraph_0
+                </div>
+                <div class="attribute-type">Type: posreg_bedgraph_0</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_region_bedgraph_0/statistics/histogram_posreg_bedgraph_0.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+                <div class="attribute-source">source: posreg_bedgraph_0</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: position_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position like
+phastCons, phyloP, FitCons2, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#position-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_region_bedgraph_0/index.html">
+                      mini_positionscore_region_bedgraph_0</a></div>                            
+              <div class="resource-info">Type: position_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  0-based bedgraph position score (region)
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  posreg_bedgraph_1
+                </div>
+                <div class="attribute-type">Type: posreg_bedgraph_1</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_region_bedgraph_1/statistics/histogram_posreg_bedgraph_1.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+                <div class="attribute-source">source: posreg_bedgraph_1</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: position_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position like
+phastCons, phyloP, FitCons2, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#position-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_region_bedgraph_1/index.html">
+                      mini_positionscore_region_bedgraph_1</a></div>                            
+              <div class="resource-info">Type: position_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  1-based bedgraph position score (region)
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  posreg_tsv_0
+                </div>
+                <div class="attribute-type">Type: posreg_tsv_0</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_region_tsv_0/statistics/histogram_posreg_tsv_0.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+                <div class="attribute-source">source: posreg_tsv_0</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: position_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position like
+phastCons, phyloP, FitCons2, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#position-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_region_tsv_0/index.html">
+                      mini_positionscore_region_tsv_0</a></div>                            
+              <div class="resource-info">Type: position_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  0-based tsv position score (region)
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  posreg_tsv_1
+                </div>
+                <div class="attribute-type">Type: posreg_tsv_1</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_region_tsv_1/statistics/histogram_posreg_tsv_1.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+                <div class="attribute-source">source: posreg_tsv_1</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: position_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position like
+phastCons, phyloP, FitCons2, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#position-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_positionscore_region_tsv_1/index.html">
+                      mini_positionscore_region_tsv_1</a></div>                            
+              <div class="resource-info">Type: position_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  1-based tsv position score (region)
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  np_tsv_0_num
+                </div>
+                <div class="attribute-type">Type: np_tsv_0_num</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_npscore_tsv_0/statistics/histogram_np_tsv_0_num.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+<p><strong>nucleotide_aggregator</strong>: <code>max</code> [default]</p>
+
+                <div class="attribute-source">source: np_tsv_0_num</div>
+              </div>
+            </div>
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  np_tsv_0_cat
+                </div>
+                <div class="attribute-type">Type: np_tsv_0_cat</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_npscore_tsv_0/statistics/histogram_np_tsv_0_cat.png" alt="HISTOGRAM" /></p>
+
+<p>small values: None</p>
+
+<p>large_values None</p>
+
+<p><strong>position_aggregator</strong>: <code>concatenate</code> [default]</p>
+
+<p><strong>nucleotide_aggregator</strong>: <code>concatenate</code> [default]</p>
+
+                <div class="attribute-source">source: np_tsv_0_cat</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line sticky-line">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: np_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position and
+nucleotide change like CADD, MPC, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#np-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_npscore_tsv_0/index.html">
+                      mini_npscore_tsv_0</a></div>                            
+              <div class="resource-info">Type: np_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  
+0-based tsv np score
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  np_tsv_1_num
+                </div>
+                <div class="attribute-type">Type: np_tsv_1_num</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_npscore_tsv_1/statistics/histogram_np_tsv_1_num.png" alt="HISTOGRAM" /></p>
+
+<p>small values: less</p>
+
+<p>large_values more</p>
+
+<p><strong>position_aggregator</strong>: <code>mean</code> [default]</p>
+
+<p><strong>nucleotide_aggregator</strong>: <code>max</code> [default]</p>
+
+                <div class="attribute-source">source: np_tsv_1_num</div>
+              </div>
+            </div>
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  np_tsv_1_cat
+                </div>
+                <div class="attribute-type">Type: np_tsv_1_cat</div>
+              </div>
+              <div class="attribute-description">
+                <p>a description</p>
+
+<p><img src="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_npscore_tsv_1/statistics/histogram_np_tsv_1_cat.png" alt="HISTOGRAM" /></p>
+
+<p>small values: None</p>
+
+<p>large_values None</p>
+
+<p><strong>position_aggregator</strong>: <code>concatenate</code> [default]</p>
+
+<p><strong>nucleotide_aggregator</strong>: <code>concatenate</code> [default]</p>
+
+                <div class="attribute-source">source: np_tsv_1_cat</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line sticky-line">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: np_score</div>
+          </div>
+    
+          
+            <div class="annotator-description">
+              <p>Annotator to use with genomic scores depending on genomic position and
+nucleotide change like CADD, MPC, etc.</p>
+
+<p><a href="https://www.iossifovlab.com/gpfuserdocs/administration/annotation_tools.html#np-score" target="_blank">More info</a></p>
+
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_npscore_tsv_1/index.html">
+                      mini_npscore_tsv_1</a></div>                            
+              <div class="resource-info">Type: np_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  
+1-based tsv np score
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <div class="annotator-doc">
+        <div class="attribute-list">
+          
+            <div class="attribute">
+              <div class="attribute-info ">
+                <div class="attribute-name">
+                  my_genescore
+                </div>
+                <div class="attribute-type">Type: my_genescore</div>
+              </div>
+              <div class="attribute-description">
+                <p>level</p>
+
+                <div class="attribute-source">source: my_genescore</div>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="annotator-line ">
+          <div class="annotator">
+            <div class="annotator-title">Annotator type: gene_score_annotator</div>
+          </div>
+    
+          
+            <div class="no-description">
+              No description
+            </div>
+          
+
+          
+            <div class="resource">
+              <div><b>Resource</b></div>
+              <div class="resource-info">Id: <a href="file:///Users/muratcokol/Desktop/Ivan/mini_grr/mini_genescore/index.html">
+                      mini_genescore</a></div>                            
+              <div class="resource-info">Type: gene_score</div>
+              
+                <div class="resource-info">Summary:</div>
+                <div>
+                  a gene score
+
+                </div>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+  </body>
+<html>
+
+
+    <h1>Files</h1>
+    <table>
+    <thead>
+        <tr>
+            <th>Filename</th>
+            <th>Size</th>
+            <th>md5</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="nowrap">
+                <a href='genomic_resource.yaml'>genomic_resource.yaml</a>
+            </td>
+            <td class="nowrap">150.0 B</td>
+            <td class="nowrap">1c826119016028bbc16e0bac271c3aa1</td>
+        </tr>
+        <tr>
+            <td class="nowrap">
+                <a href='mini_pipeline.yaml'>mini_pipeline.yaml</a>
+            </td>
+            <td class="nowrap">825.0 B</td>
+            <td class="nowrap">7a8f6f92919884630db6c55eae4a43bb</td>
+        </tr>
+        <tr>
+            <td class="nowrap">
+                <a href='statistics/'>statistics/</a>
+            </td>
+            <td class="nowrap"></td>
+            <td class="nowrap"></td>
+        </tr>
+    </tbody>
+    </table>
+
+    </body>
+</html>

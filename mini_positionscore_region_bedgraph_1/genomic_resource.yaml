@@ -17,7 +17,7 @@ table:
 
 # score values
 scores:
-  - id: posreg_bedgraph_0
+  - id: posreg_bedgraph_1
     type: float
     desc: "a description"
     large_values_desc: "more"
