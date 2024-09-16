@@ -1,6 +1,9 @@
-- md5: 69ef2ceabfdb5bccc84ddf330cbc8490
+- md5: 33403665aa79959d00903dd6921a3215
   name: genomic_resource.yaml
-  size: 599
+  size: 655
+- md5: 862d3e678e7a17f0a9c0cde9c0dc6692
+  name: histogram_pos_tsv_1.png
+  size: 10143
 - md5: aa21e2ddc0c4264c36aa14055286c6eb
   name: mini_positionscore_tsv_1.tsv
   size: 236

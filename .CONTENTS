@@ -453,6 +453,142 @@
     meta:
       description: '
 
+        bw description'
+      summary: '0-based bw position score
+
+        '
+    scores:
+    - desc: bw score
+      histogram:
+        number_of_bins: 100
+        type: number
+        view_range:
+          max: 1.0
+          min: 0.0
+        y_log_scale: true
+      id: pos_bw_0
+      index: 3
+      large_values_desc: more
+      small_values_desc: less
+      type: float
+    table:
+      chrom:
+        index: 0
+      filename: mini_positionscore_bw_0.bw
+      header_mode: none
+      pos_begin:
+        index: 1
+      pos_end:
+        index: 2
+    type: position_score
+  id: mini_positionscore_bw_0
+  manifest:
+  - md5: b7ad723cdc361386f28db6f3c3f8c2a8
+    name: chrom.sizes
+    size: 16
+  - md5: 64e919104a847a6c39caff19b946edd1
+    name: genomic_resource.yaml
+    size: 571
+  - md5: 41ca2ab0b1e7ef18110ca3f66b1f7a55
+    name: mini_positionscore_bw_0.bedgraph
+    size: 54
+  - md5: 266644975a85c05407228c73ca9c76fe
+    name: mini_positionscore_bw_0.bw
+    size: 12944
+  - md5: 41ca2ab0b1e7ef18110ca3f66b1f7a55
+    name: mini_positionscore_bw_0.txt
+    size: 54
+  - md5: 06b6d4a2da4a03f2865a6dd8f36482ec
+    name: sorted_mini_positionscore_bw_0.bedgraph
+    size: 55
+  - md5: 43f9711dc8859a62c5f61443635185d0
+    name: statistics/histogram_bw_0based.png
+    size: 10545
+  - md5: 25b0b618a2cf54fe7c99ed66ced7c745
+    name: statistics/histogram_bw_0based.yaml
+    size: 1469
+  - md5: d79fe00269a907499dfe26040225c6e1
+    name: statistics/histogram_pos_bw_0.png
+    size: 10224
+  - md5: 25b0b618a2cf54fe7c99ed66ced7c745
+    name: statistics/histogram_pos_bw_0.yaml
+    size: 1469
+  - md5: 6ae296ead7362e35b143f542a1a73162
+    name: statistics/stats_hash
+    size: 799
+  version: '0'
+- config:
+    meta:
+      description: '
+
+        bw description'
+      summary: '1-based bw position score
+
+        '
+    scores:
+    - desc: bw score
+      histogram:
+        number_of_bins: 100
+        type: number
+        view_range:
+          max: 1.0
+          min: 0.0
+        y_log_scale: true
+      id: pos_bw_1
+      index: 3
+      large_values_desc: more
+      small_values_desc: less
+      type: float
+    table:
+      chrom:
+        index: 0
+      filename: mini_positionscore_bw_1.bw
+      header_mode: none
+      pos_begin:
+        index: 1
+      pos_end:
+        index: 2
+    type: position_score
+  id: mini_positionscore_bw_1
+  manifest:
+  - md5: b7ad723cdc361386f28db6f3c3f8c2a8
+    name: chrom.sizes
+    size: 16
+  - md5: 057517838f9a78b3137613dda24e0b98
+    name: genomic_resource.yaml
+    size: 571
+  - md5: 4a4f0232bf6af280cc1108411e10e431
+    name: mini_positionscore_bw_1.bedgraph
+    size: 54
+  - md5: 3f95ac20a5dc0d2cff2f48aba63bbe57
+    name: mini_positionscore_bw_1.bw
+    size: 12957
+  - md5: 4a4f0232bf6af280cc1108411e10e431
+    name: mini_positionscore_bw_1.txt
+    size: 54
+  - md5: eb495989820e31eb852877bf2266c4b7
+    name: sorted_mini_positionscore_bw_1.bedgraph
+    size: 55
+  - md5: 28f84f42598767360caa2776e2ec2632
+    name: statistics/histogram_bw_0based.png
+    size: 10944
+  - md5: b7c1ddf1ed48ee2bb18b242bcf36ae3f
+    name: statistics/histogram_bw_0based.yaml
+    size: 1469
+  - md5: 13a883c1c04cb3bc260ae937c5e4be63
+    name: statistics/histogram_bw_1based.png
+    size: 10827
+  - md5: b7c1ddf1ed48ee2bb18b242bcf36ae3f
+    name: statistics/histogram_bw_1based.yaml
+    size: 1469
+  - md5: 40efdaea3c43a89c17c60cf703fa1fd2
+    name: statistics/stats_hash
+    size: 766
+  version: '0'
+- config:
+    meta:
+      description: '
+
         my description'
       summary: '0-based bedgraph position score (region)
 
@@ -855,7 +991,9 @@
     meta:
       description: '
 
-        my description'
+        my description
+
+        ![My Position Score Image](histogram_pos_tsv_1.png)'
       summary: '1-based tsv position score
 
         '
@@ -886,9 +1024,12 @@
     type: position_score
   id: mini_positionscore_tsv_1
   manifest:
-  - md5: 69ef2ceabfdb5bccc84ddf330cbc8490
+  - md5: 33403665aa79959d00903dd6921a3215
     name: genomic_resource.yaml
-    size: 599
+    size: 655
+  - md5: 862d3e678e7a17f0a9c0cde9c0dc6692
+    name: histogram_pos_tsv_1.png
+    size: 10143
   - md5: aa21e2ddc0c4264c36aa14055286c6eb
     name: mini_positionscore_tsv_1.tsv
     size: 236

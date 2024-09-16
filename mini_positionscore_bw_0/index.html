@@ -32,7 +32,7 @@ td {
                 <td>
                     <b>Id:</b>
                 </td>
-                <td>mini_positionscore_tsv_1</td>
+                <td>mini_positionscore_bw_0</td>
             </tr>
             <tr>
                 <td>
@@ -50,7 +50,7 @@ td {
                 <td><b>Summary:</b></td>
                 <td>
                     <div>
-                        <template shadowrootmode="open"><p>1-based tsv position score</p>
+                        <template shadowrootmode="open"><p>0-based bw position score</p>
 
                         </template>
                      </div>
@@ -62,8 +62,7 @@ td {
                 </td>
                 <td>
                     <div>
-                        <template shadowrootmode="open"><p>my description
-<img src="histogram_pos_tsv_1.png" alt="My Position Score Image" /></p>
+                        <template shadowrootmode="open"><p>bw description</p>
 
                         </template>
                      </div>
@@ -147,17 +146,17 @@ td {
         <th>Range</th>
     </tr><tr class="score-definition">
 
-            <td>pos_tsv_1</td>
+            <td>pos_bw_0</td>
 
             <td>float</td>
 
             
             <td>
-                <p>pos_tsv_1</p>
+                <p>pos_bw_0</p>
             </td>
 
             <td>
-                <div>a description</div>
+                <div>bw score</div>
                 
                     <div style="color: rgb(145,145,145)">
                         Small values desc: less
@@ -173,23 +172,23 @@ td {
             <td>
                 
                 
-                <img src="statistics/histogram_pos_tsv_1.png"
-                    alt="HISTOGRAM FOR pos_tsv_1"
-                    title=pos_tsv_1
+                <img src="statistics/histogram_pos_bw_0.png"
+                    alt="HISTOGRAM FOR pos_bw_0"
+                    title=pos_bw_0
                     width="200"
                     style="cursor: pointer"
                     onclick="openModal(title)"></td>
 
             <td>
-                [0.000, 0.900]</td>
+                [0.000, 0.300]</td>
 
-        </tr><div id="modal-pos_tsv_1" class="modal">
+        </tr><div id="modal-pos_bw_0" class="modal">
             <div style="padding: 10px 20px; background-color: #fff; height: fit-content; width: fit-content;">
-                <span title=pos_tsv_1 class="close" onclick="closeModal(title)">&times;</span>
-                <img class="modal-content" id="histogram-pos_tsv_1"
-                    src="statistics/histogram_pos_tsv_1.png"
-                    alt="HISTOGRAM FOR pos_tsv_1"
-                    title=pos_tsv_1
+                <span title=pos_bw_0 class="close" onclick="closeModal(title)">&times;</span>
+                <img class="modal-content" id="histogram-pos_bw_0"
+                    src="statistics/histogram_pos_bw_0.png"
+                    alt="HISTOGRAM FOR pos_bw_0"
+                    title=pos_bw_0
                     width="200">
             </div>
         </div>
@@ -209,38 +208,45 @@ td {
     <tbody>
         <tr>
             <td class="nowrap">
+                <a href='chrom.sizes'>chrom.sizes</a>
+            </td>
+            <td class="nowrap">16.0 B</td>
+            <td class="nowrap">b7ad723cdc361386f28db6f3c3f8c2a8</td>
+        </tr>
+        <tr>
+            <td class="nowrap">
                 <a href='genomic_resource.yaml'>genomic_resource.yaml</a>
             </td>
-            <td class="nowrap">655.0 B</td>
-            <td class="nowrap">33403665aa79959d00903dd6921a3215</td>
+            <td class="nowrap">571.0 B</td>
+            <td class="nowrap">64e919104a847a6c39caff19b946edd1</td>
         </tr>
         <tr>
             <td class="nowrap">
-                <a href='histogram_pos_tsv_1.png'>histogram_pos_tsv_1.png</a>
+                <a href='mini_positionscore_bw_0.bedgraph'>mini_positionscore_bw_0.bedgraph</a>
             </td>
-            <td class="nowrap">9.91 KB</td>
-            <td class="nowrap">862d3e678e7a17f0a9c0cde9c0dc6692</td>
+            <td class="nowrap">54.0 B</td>
+            <td class="nowrap">41ca2ab0b1e7ef18110ca3f66b1f7a55</td>
         </tr>
         <tr>
             <td class="nowrap">
-                <a href='mini_positionscore_tsv_1.tsv'>mini_positionscore_tsv_1.tsv</a>
+                <a href='mini_positionscore_bw_0.bw'>mini_positionscore_bw_0.bw</a>
             </td>
-            <td class="nowrap">236.0 B</td>
-            <td class="nowrap">aa21e2ddc0c4264c36aa14055286c6eb</td>
+            <td class="nowrap">12.64 KB</td>
+            <td class="nowrap">266644975a85c05407228c73ca9c76fe</td>
         </tr>
         <tr>
             <td class="nowrap">
-                <a href='mini_positionscore_tsv_1.tsv.gz'>mini_positionscore_tsv_1.tsv.gz</a>
+                <a href='mini_positionscore_bw_0.txt'>mini_positionscore_bw_0.txt</a>
             </td>
-            <td class="nowrap">177.0 B</td>
-            <td class="nowrap">8e04969a46a6db6e2499909e6832848d</td>
+            <td class="nowrap">54.0 B</td>
+            <td class="nowrap">41ca2ab0b1e7ef18110ca3f66b1f7a55</td>
         </tr>
         <tr>
             <td class="nowrap">
-                <a href='mini_positionscore_tsv_1.tsv.gz.tbi'>mini_positionscore_tsv_1.tsv.gz.tbi</a>
+                <a href='sorted_mini_positionscore_bw_0.bedgraph'>sorted_mini_positionscore_bw_0.bedgraph</a>
             </td>
-            <td class="nowrap">118.0 B</td>
-            <td class="nowrap">3e87d3b1263695c09852d633c92c0532</td>
+            <td class="nowrap">55.0 B</td>
+            <td class="nowrap">06b6d4a2da4a03f2865a6dd8f36482ec</td>
         </tr>
         <tr>
             <td class="nowrap">

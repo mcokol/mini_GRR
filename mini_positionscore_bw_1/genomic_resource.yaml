@@ -3,8 +3,7 @@
 type: position_score
 
 table:
-  filename: mini_positionscore_tsv_1.tsv.gz
-  format: tabix
+  filename: mini_positionscore_bw_1.bw
   header_mode: none
 
   # defined by score_type
@@ -13,16 +12,16 @@ table:
   pos_begin:
     index: 1
   pos_end:
-    index: 1
+    index: 2
 
 # score values
 scores:
-  - id: pos_tsv_1
+  - id: pos_bw_1
     type: float
-    desc: "a description"
+    desc: "bw score"
     large_values_desc: "more"
     small_values_desc: "less"
-    index: 2
+    index: 3
     histogram:
       type: number
       number_of_bins: 100
@@ -34,9 +33,8 @@ scores:
 
 meta:
   summary: |
-    1-based tsv position score
+    1-based bw position score
 
   description: |
     
-    my description
-    ![My Position Score Image](histogram_pos_tsv_1.png)
+    bw description
