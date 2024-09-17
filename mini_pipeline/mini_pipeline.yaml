@@ -20,10 +20,13 @@ annotators:
 - position_score: mini_positionscore_region_bedgraph_1
 - position_score: mini_positionscore_region_tsv_0
 - position_score: mini_positionscore_region_tsv_1
-
+- position_score: mini_positionscore_bw_0
+- position_score: mini_positionscore_bw_1
 
 - np_score: mini_npscore_tsv_0
 - np_score: mini_npscore_tsv_1
+
+- allele_score: mini_vcf_1
 
 - gene_score_annotator:
     resource_id: mini_genescore
