@@ -4,6 +4,9 @@
 - md5: 64e919104a847a6c39caff19b946edd1
   name: genomic_resource.yaml
   size: 571
+- md5: 36322d718c50059d3af0d4736dbd3ee6
+  name: index.html
+  size: 6369
 - md5: 41ca2ab0b1e7ef18110ca3f66b1f7a55
   name: mini_positionscore_bw_0.bedgraph
   size: 54

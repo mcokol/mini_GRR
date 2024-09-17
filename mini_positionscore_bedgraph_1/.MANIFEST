@@ -1,6 +1,9 @@
 - md5: 5b9c6e2601d665bcc6ac0d83a821d724
   name: genomic_resource.yaml
   size: 599
+- md5: 3b9d10df2d4a8eb962cc9bb6b9e5739d
+  name: index.html
+  size: 5869
 - md5: eebfe6328e689da39259f0abfeaa6a5a
   name: minipos_1.bedgraph
   size: 278

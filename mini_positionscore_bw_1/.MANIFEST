@@ -4,6 +4,9 @@
 - md5: 057517838f9a78b3137613dda24e0b98
   name: genomic_resource.yaml
   size: 571
+- md5: 32f3f896c0ca5b4696c7fb5061574a77
+  name: index.html
+  size: 6369
 - md5: 4a4f0232bf6af280cc1108411e10e431
   name: mini_positionscore_bw_1.bedgraph
   size: 54
@@ -34,6 +37,6 @@
 - md5: b7c1ddf1ed48ee2bb18b242bcf36ae3f
   name: statistics/histogram_pos_bw_1.yaml
   size: 1469
-- md5: 40efdaea3c43a89c17c60cf703fa1fd2
+- md5: fe864b4793cb4800a5a0674a84a486ab
   name: statistics/stats_hash
-  size: 766
+  size: 799

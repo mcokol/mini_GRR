@@ -1,6 +1,9 @@
 - md5: aea0c904f7a007429aeac26b6b10309f
   name: genomic_resource.yaml
   size: 618
+- md5: ec60fcb66533b6d2505e86e30f9676c2
+  name: index.html
+  size: 5954
 - md5: bb4db0117b174a1114fc1ae0143a8fb6
   name: mini_positionscore_region_tsv_1.tsv
   size: 54

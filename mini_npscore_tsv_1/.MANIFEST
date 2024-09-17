@@ -1,6 +1,9 @@
 - md5: 27e5b7eeaca6bb297de1f5704a8925b9
   name: genomic_resource.yaml
   size: 789
+- md5: fb05e6cb8f91ca61d295715e19750156
+  name: index.html
+  size: 7078
 - md5: bbb61758621366999fe0693a625417a7
   name: mini_npscore_tsv_1.tsv
   size: 367
