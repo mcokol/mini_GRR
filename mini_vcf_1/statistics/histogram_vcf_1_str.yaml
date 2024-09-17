@@ -1,6 +1,6 @@
 config:
   type: categorical
-  value_order: []
+  value_order: null
   y_log_scale: false
 values:
   str1: 1

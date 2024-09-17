@@ -1,1 +1,1 @@
-mini_positionscore_tsv_1_manifest_rebuild: 2024-09-17 13:51:51,390 grr_manage WARNING manifest of <mini_positionscore_tsv_1> should be updated; entries to update in manifest []; entries to delete from manifest ['index.html']
+mini_positionscore_tsv_1_manifest_rebuild: 2024-09-17 14:40:56,428 grr_manage WARNING manifest of <mini_positionscore_tsv_1> should be updated; entries to update in manifest ['statistics/histogram_pos_tsv_1.png']; entries to delete from manifest ['index.html']

@@ -25,15 +25,15 @@
 - md5: 008947aa5875ca65cb89dfd3965017f2
   name: statistics/histogram_an_np_score.yaml
   size: 1578
-- md5: fa24f9e81ea7ab3bc580b1f4656b25dc
+- md5: 0d3f2b8bd9cce11cf5a049f5070a2bb8
   name: statistics/histogram_np_tsv_0_cat.png
-  size: 8796
+  size: 10409
 - md5: 145a07b61d197cee0218162828fc0da0
   name: statistics/histogram_np_tsv_0_cat.yaml
   size: 93
-- md5: f5937fb922f1fa195a0f9d0c29f565f8
+- md5: 6b30c9c16b3d8374568bdd3af37e4a57
   name: statistics/histogram_np_tsv_0_num.png
-  size: 11580
+  size: 11788
 - md5: 008947aa5875ca65cb89dfd3965017f2
   name: statistics/histogram_np_tsv_0_num.yaml
   size: 1578

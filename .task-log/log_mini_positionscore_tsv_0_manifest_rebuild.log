@@ -1,0 +1,1 @@
+mini_positionscore_tsv_0_manifest_rebuild: 2024-09-17 14:40:56,455 grr_manage WARNING manifest of <mini_positionscore_tsv_0> should be updated; entries to update in manifest ['statistics/histogram_pos_tsv_0.png', 'statistics/stats_hash']; entries to delete from manifest ['index.html']

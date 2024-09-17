@@ -1,0 +1,1 @@
+mini_vcf_1_manifest_rebuild: 2024-09-17 14:40:56,986 grr_manage WARNING manifest of <mini_vcf_1> should be updated; entries to update in manifest ['statistics/histogram_vcf_1_str.png', 'statistics/histogram_vcf_1_str.yaml']; entries to delete from manifest ['index.html']

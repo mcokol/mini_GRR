@@ -2,10 +2,11 @@
   "config": {
     "histograms": [
       {
-        "view_range": [
-          0.0,
-          1.0
-        ],
+        "type": "number",
+        "view_range": {
+          "min": 0.0,
+          "max": 1.0
+        },
         "number_of_bins": 100,
         "x_log_scale": false,
         "y_log_scale": true,

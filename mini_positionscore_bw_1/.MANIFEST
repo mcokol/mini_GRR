@@ -31,9 +31,9 @@
 - md5: b7c1ddf1ed48ee2bb18b242bcf36ae3f
   name: statistics/histogram_bw_1based.yaml
   size: 1469
-- md5: f5a26632db9d46adcdea086cc5fcf564
+- md5: 155b8000131ea5efddc7dd22f9c0426e
   name: statistics/histogram_pos_bw_1.png
-  size: 10494
+  size: 10703
 - md5: b7c1ddf1ed48ee2bb18b242bcf36ae3f
   name: statistics/histogram_pos_bw_1.yaml
   size: 1469

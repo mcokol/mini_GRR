@@ -72,6 +72,30 @@
     size: 323
   version: '0'
 - config:
+    filename: mini_geneset-map.txt
+    format: map
+    id: geneset1
+    meta:
+      description: description
+      summary: 'mini gene set
+
+        '
+    type: gene_set
+    web_format_str: 'key| (|count|): |desc'
+    web_label: geneset
+  id: mini_geneset
+  manifest:
+  - md5: 751ed0aaa8b935a89d03e974823bf431
+    name: genomic_resource.yaml
+    size: 201
+  - md5: 6192fca86a29be5bc6f096390a779872
+    name: mini_geneset-map.txt
+    size: 21
+  - md5: 3636a33d344829827800dd4c96ed6427
+    name: mini_geneset-mapnames.txt
+    size: 24
+  version: '0'
+- config:
     chrom_prefix: chr
     filename: mini.genome.fa
     meta:
@@ -321,9 +345,9 @@
   - md5: 345b379c71ffef27c4f8ad66729c36b5
     name: index.html
     size: 33025
-  - md5: 7a8f6f92919884630db6c55eae4a43bb
+  - md5: 1a27141b9f6fb33657b42482f5e8f6fc
     name: mini_pipeline.yaml
-    size: 825
+    size: 936
   - md5: 6a99c575ab87f8c7d1ed1e52e7e349ce
     name: statistics/stats_hash
     size: 11

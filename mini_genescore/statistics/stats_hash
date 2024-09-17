@@ -3,10 +3,11 @@
     {
       "hist_conf": {
         "number_of_bins": 3,
-        "view_range": [
-          1,
-          4
-        ],
+        "type": "number",
+        "view_range": {
+          "max": 4,
+          "min": 1
+        },
         "x_log_scale": false,
         "x_min_log": null,
         "y_log_scale": false
