@@ -1,1 +1,1 @@
-mini_vcf_manifest_rebuild: 2024-09-17 13:41:35,632 grr_manage WARNING manifest of <mini_vcf> should be updated; entries to update in manifest ['statistics/stats_hash']
+mini_vcf_manifest_rebuild: 2024-09-18 11:47:35,203 grr_manage WARNING manifest of <mini_vcf> should be updated; entries to update in manifest []; entries to delete from manifest ['index.html']

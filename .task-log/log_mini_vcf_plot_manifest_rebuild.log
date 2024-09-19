@@ -1,0 +1,1 @@
+mini_vcf_plot_manifest_rebuild: 2024-09-19 08:42:17,364 grr_manage WARNING manifest of <mini_vcf_plot> should be updated; entries to update in manifest ['statistics/histogram_vcf_1_str.yaml', 'statistics/stats_hash']

@@ -1,1 +1,1 @@
-mini_npscore_tsv_0_manifest_rebuild: 2024-09-17 14:40:56,590 grr_manage WARNING manifest of <mini_npscore_tsv_0> should be updated; entries to update in manifest ['statistics/histogram_np_tsv_0_cat.png', 'statistics/histogram_np_tsv_0_num.png']; entries to delete from manifest ['index.html']
+mini_npscore_tsv_0_manifest_rebuild: 2024-09-18 11:47:34,638 grr_manage WARNING manifest of <mini_npscore_tsv_0> should be updated; entries to update in manifest []; entries to delete from manifest ['index.html']

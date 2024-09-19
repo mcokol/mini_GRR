@@ -3,8 +3,7 @@
 type: position_score
 
 table:
-  filename: mini_positionscore_tsv_1.tsv.gz
-  format: tabix
+  filename: mini_positionscore_tsv_1.tsv
   header_mode: none
 
   # defined by score_type

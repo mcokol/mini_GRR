@@ -15,8 +15,7 @@
     ],
     "table": {
       "config": {
-        "filename": "mini_positionscore_tsv_1.tsv.gz",
-        "format": "tabix",
+        "filename": "mini_positionscore_tsv_1.tsv",
         "header_mode": "none",
         "chrom": {
           "index": 0
@@ -29,8 +28,7 @@
         }
       },
       "files_md5": {
-        "mini_positionscore_tsv_1.tsv.gz": "8e04969a46a6db6e2499909e6832848d",
-        "mini_positionscore_tsv_1.tsv.gz.tbi": "3e87d3b1263695c09852d633c92c0532"
+        "mini_positionscore_tsv_1.tsv": "aa21e2ddc0c4264c36aa14055286c6eb"
       }
     }
   },

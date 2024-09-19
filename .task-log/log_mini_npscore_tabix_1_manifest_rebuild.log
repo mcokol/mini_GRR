@@ -1,0 +1,1 @@
+mini_npscore_tabix_1_manifest_rebuild: 2024-09-19 09:26:57,320 grr_manage WARNING manifest of <mini_npscore_tabix_1> should be updated; entries to update in manifest ['statistics/histogram_np_tsv_1_cat.png', 'statistics/histogram_np_tsv_1_cat.yaml', 'statistics/histogram_np_tsv_1_num.png', 'statistics/histogram_np_tsv_1_num.yaml']

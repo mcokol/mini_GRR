@@ -15,9 +15,7 @@
     ],
     "table": {
       "config": {
-        "filename": "mini_positionscore_tsv_0.tsv.gz",
-        "format": "tabix",
-        "header_mode": "none",
+        "filename": "mini_positionscore_tsv_0.tsv",
         "zero_based": true,
         "chrom": {
           "index": 0
@@ -30,8 +28,7 @@
         }
       },
       "files_md5": {
-        "mini_positionscore_tsv_0.tsv.gz": "449ddeab7646849ee7226480f5bf6468",
-        "mini_positionscore_tsv_0.tsv.gz.tbi": "f4ba3ad33d74415c50b41d2f0972f860"
+        "mini_positionscore_tsv_0.tsv": "2283da2edfb2c8bac928db3f4f689785"
       }
     }
   },

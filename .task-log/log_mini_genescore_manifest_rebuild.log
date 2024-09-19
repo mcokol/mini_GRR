@@ -1,1 +1,1 @@
-mini_genescore_manifest_rebuild: 2024-09-17 14:40:56,210 grr_manage WARNING manifest of <mini_genescore> should be updated; entries to update in manifest ['statistics/histogram_my_genescore.png']; entries to delete from manifest ['index.html']
+mini_genescore_manifest_rebuild: 2024-09-18 11:47:34,234 grr_manage WARNING manifest of <mini_genescore> should be updated; entries to update in manifest []; entries to delete from manifest ['index.html']
